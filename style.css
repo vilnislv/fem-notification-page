@@ -120,37 +120,54 @@ p {
   color: blue;
 }
 
-
-
-@media (max-width: 375px) {
+@media (max-width: 47em) {
   .container {
-    width: 23.438rem;
-    height: 56.313rem;
-    
+    max-width: 96vw;
+    margin: auto;
   }
+
   .card {
-    width: 21.875rem;
+    width: 94%;
     height: 5rem;
     font-size: .9rem;
-    margin-bottom: 1rem;
-    margin-left: 2%;
-    
+    margin-bottom: .5rem;
+    margin-left: 3%;
   }
+
   #hide-par {
-    height: 13%;
-    width: 71%;
-    margin-left: 22%;
+    height: fit-content;
+    width: 73%;
+    margin-left: 23%;
     padding: 2% 2%;
   }
-  p {
-    line-height: 1.2em;
-  }
+
   #notif {
     padding-left: 3%;
     padding-right: 3%;
   }
+  
+  #kim {
+    width: 70%;
+  }
   #c-img {
-    margin-left: 2%;
+    margin-left: -4%;
+  }
+
+  p {
+    line-height: 1.2em;
+  }
+}
+@media (max-width: 21em) {
+  .card {
+    width: 94%;
+  }
+
+  #kim {
+    width: 65%;
+  }
+
+  #c-img {
+    margin-bottom: -6%;
   }
 }
 
