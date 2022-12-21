@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background: hsl(210, 60%, 98%);
+}
+
+.container {
+  border-radius: 12px;
+  width: 45.625rem;
+  height: 52.5rem;
+  background: hsl(0, 0%, 100%);
+  margin:  3vh auto;
+  padding: 1%;
+  box-shadow: 0 0 16px hsl(0, 34%, 89%);
+}
+
+#notif {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.card {
+  width: 41.563rem;
+  height: 5rem;
+  margin: 2% 2%;
+  padding: 1.5%;
+  display: flex;
+  align-items: center;
+}
+
+.card-active {
+  background: hsl(210, 60%, 98%);
+  border-radius: 6px;
+}
+
+p {
+  line-height: 1.375rem;
+  color: hsl(219, 12%, 42%);
+}
+
+.profile-img {
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin-right: .4rem;
+}
+
+#c-img {
+  margin-left: 30%;
+}
+
+.name {
+  font-size: 1em;
+  color: hsl(224, 21%, 14%);
+}
+
+.name, .bld {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.name:active, .bld:active {
+  color: hsl(219, 85%, 26%);
+}
+
+.badge {
+  background-color: hsl(219, 85%, 26%);
+  color: white;
+  margin-left: 5px;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#all-read {
+  font-size: .9em;
+  color: hsl(219, 14%, 63%);
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+#all-read:active {
+  color: hsl(219, 85%, 26%);
+}
+
+#red-point {
+  margin-left: 3px;
+  font-size: 1.6em;
+  color: red;
+}
+
+#hide-par {
+  width: 78%;
+  height: 10%;
+  border: 1px solid grey;
+  margin-left: 14%;
+  padding: 1% 2%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#hide-par:active {
+  background: hsl(205, 33%, 90%);
+}
+.chess-cl {
+  color: hsl(219, 85%, 26%);
+  font-weight: 800;
+  cursor: pointer;
+}
+.chess-cl:active {
+  color: blue;
+}
+
+
+
+@media (max-width: 375px) {
+  .container {
+    width: 23.438rem;
+    height: 56.313rem;
+    
+  }
+  .card {
+    width: 21.875rem;
+    height: 5rem;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+    margin-left: 2%;
+    
+  }
+  #hide-par {
+    height: 13%;
+    width: 71%;
+    margin-left: 22%;
+    padding: 2% 2%;
+  }
+  p {
+    line-height: 1.2em;
+  }
+  #notif {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #c-img {
+    margin-left: 2%;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center; 
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
+
+
+  
