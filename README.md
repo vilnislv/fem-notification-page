@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Live Site URL:](https://vilnislv.github.io/notification-page/)
+- Live Site URL: [Live Site URL:]( https://vilnislv.github.io/fem-notification-page/)
 
 ## My process
 
